@@ -16,3 +16,19 @@ while (!(isNaN(Number(input)))) {
 }
 
 alert(`Hello ${input}`);
+
+let fruits = ['Apple', 'Banana'];
+fruits.push('Orange');
+//let returnVal = fruits.pop();
+//console.log(returnVal);
+fruits.unshift('Mango');
+//fruits.shift();
+//console.log(fruits);
+
+for (let i=0; i<fruits.length; i++) {
+    console.log(fruits[i]);
+}
+
+for (let item of fruits) {
+    console.log(item);
+}
